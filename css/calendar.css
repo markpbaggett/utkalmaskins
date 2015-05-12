@@ -148,16 +148,18 @@ input.dp-applied {
 	margin:5px 0;
 }
 
+/* Set to hide because it is not needed.
+   Edited by Joe Ferguson on 03/18/15. */
 a.dp-choose-date {
 	float: left;
-	width: 34px;
-	height: 20px;
+	width: 0px;
+	height: 0px;
 	padding: 0;
 	margin: 5px 3px 0;
 	display: block;
 	text-indent: -2000px;
 	overflow: hidden;
-	background: url(/view/branding_skin/icons/calendar-icon.png?version=1.0) no-repeat;
+	background: none;
 }
 a.dp-choose-date.dp-disabled {
 	background-position: 0 -20px;
