@@ -26,159 +26,6 @@ When extracted from the zip, all classes will be commented out.
 	padding: 0;
 	border: none;
 }*/
-/**/
-/* UTK Addition - hide the "Partial" checkbox in Digitization Request */
-#partialCheckBox {
-	display:none;
-	line-height:0;
-	height: 0;
-	overflow: hidden;
-	zoom: 1;
-}
-#noNeedAfterDate {
-	display:none;
-	line-height:0;
-	height: 0;
-	overflow: hidden;
-	zoom: 1;
-}
-
-#selectMaterialType{
-	display:none;
-	line-height:0;
-	height: 0;
-	overflow: hidden;
-	zoom: 1;
-}
-
-#selectLoanPeriod{
-	display:none;
-	line-height:0;
-	height: 0;
-	overflow: hidden;
-	zoom: 1;
-}
-
-.holdRequest > form > .clearfix > ul > li > #commentInput{
-	display:none;
-	line-height:0;
-	height: 0;
-	overflow: hidden;
-	zoom: 1;
-}
-
-.digitizationRequest > form > .clearfix > ul > li > label[for=commentInput]{
-    line-height: 200%;
-
-}
-
-/* This pushes the pages number box under the citation wording so that the citation
-   wording does not wrap so long on a mobile device.
-   Added by Joe Ferguson on 03/18/15. */
-.digitizationRequest > form > .clearfix > ul > li.width24.nextLine{
-    width: 500px;
-}
-
-
-label[for=pickupLocationCombo]
-{
-    line-height: 200%;
-}
-
-label[for=manualDescriptionInput]
-{
-    line-height: 200%;
-}
-
-li.width24 {
-	line-height: 0%;
-}
-
-
-li#termsOfUseV.width72 {
-	display: none;
-
-}
-
-.resetContainer a {
-	font-size 80%;
-}
-
-#noNeedAfterV {
-	display: none;
-	line-height: 0%;
-}
-
-/* This takes care of the white space on the PDF scan page below the pages to scan field and the submit buttons */
-li > label[for=noNeedAfterDate] + li.width72{
-	height: 0;
-
-}
-
-
-/* This hides the RequestDiffIssue link */
-#openRequestDiffIssue{
-	display: none;
-}
-
-/* This hides the DigitizeDiffIssue link */
-#openDigitizeDiffIssue{
-	display: none;
-}
-
-/* This hides the DigitizeDiffIssue link */
-#openRequestDiffIssue + .recordListActionSeparator{
-	display: none;
-}
-
-/* This hides the | separator after the "Request For" after the DigitizeDiffIssue */
-#openDigitizeDiffIssue + .recordListActionSeparator{
-	display: none;
-}
-
-/* This hides the barcode column in the Get It Tab */
-/* Added by Joe Ferguson on 03/03/15. */
-div.itemsList > #TABLE_DATA_item_list > thead > tr > th:first-child,
-div.itemsList > #TABLE_DATA_item_list > tbody > tr > td:first-child{
-	display: none;
-}
-
-/* Make the input field look more like a textarea so patrons
-   know they can input MORE information than what it looks like.
-   Added by Joe Ferguson on 03/18/15. */
-.EXLRequestTabFormInputComment{
-	height: 40px;
-	width: 265px;
-}
-
-/* This removed the "space" in front of the labels on the PDF Scan and Request pages in the Get It Tab
-   Added by Joe Ferguson on 03/19/15. */
-.formView  li label:before {
-	content: initial;
-	color: #ff0000;
-	margin-right: 0.5em;
-	visibility: hidden;
-}
-
-
-@media only screen and (max-device-width: 480px) {
-/* define mobile specific styles come here */
-	.digitizationRequest > form > .clearfix > ul > li > label[for=commentInput]{
-		width:265px;
-	}
-	
-	/* On the mobile site the Show Availability in the Mobile tab
-	   sometimes overlaps and it is unreadable. This spaces it out
-	   a little more.
-	   Added by Joe Ferguson on 03/18/15. */
-	#toggleHolding > .internalSection.showMore > .width60{
-		position: relative;
-		left: 30px;
-	}
-	
-	
-}
-
 
 /*A:link,A:visited {
 	color: #2c4d82;
@@ -459,7 +306,6 @@ div.itemsList > #TABLE_DATA_item_list > tbody > tr > td:first-child{
 /*.formView a.dp-choose-date img {
 	vertical-align: middle;
 	margin-top:-1px;
-
 }*/
 
 /*.mandatory {
@@ -1329,10 +1175,6 @@ Classes bellow are used to define the look and feel of the date & time component
 /* Overlays */
 /*.ui-widget-overlay { background: #aaaaaa url(/infra/css/images/ui-bg_flat_0_aaaaaa_40x100.png?version=1.0) 50% 50% repeat-x; opacity: .3;filter:Alpha(Opacity=30); }
 .ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #aaaaaa url(/infra/css/images/ui-bg_flat_0_aaaaaa_40x100.png?version=1.0) 50% 50% repeat-x; opacity: .3;filter:Alpha(Opacity=30); -moz-border-radius: 8px; -khtml-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }*/
-
-
-
-
 
 
 
